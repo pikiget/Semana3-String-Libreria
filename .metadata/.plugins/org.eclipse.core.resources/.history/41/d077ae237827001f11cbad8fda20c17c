@@ -1,0 +1,16 @@
+package lib;
+
+public class Libreria {
+	public Libreria() {
+		
+	}
+	
+	public static String textoValido(String a) {
+		return a.trim();
+	}
+	
+	public static int logitudTextoValido(String a) {
+		return a.length();
+	}
+	
+}

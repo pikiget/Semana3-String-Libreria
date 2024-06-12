@@ -1,0 +1,11 @@
+package lib;
+
+public class Libreria {
+	public Libreria() {
+		
+	}
+	
+	public static String textoValido(String a) {
+		return a.trim();
+	}
+}

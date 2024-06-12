@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+E:\CLASES CIBERTEC\CICLO-2\Algoritmos y Estructuras de Datos\SEMANA 3\.metadata\.plugins\org.eclipse.jdt.core
+322574356.index
+1865797976.index
+1152180777.index

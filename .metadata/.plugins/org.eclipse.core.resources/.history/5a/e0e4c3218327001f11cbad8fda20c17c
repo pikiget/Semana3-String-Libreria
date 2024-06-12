@@ -1,0 +1,38 @@
+package lib;
+
+public class Libreria {
+	public Libreria() {
+		
+	}
+	
+	public static String textoValido(String a) {
+		return a.trim();
+	}
+	
+	public static int logitudTextoValido(String a) {
+		String textoValido = textoValido(a);
+		return textoValido.length();
+	}
+	
+	public static char primeraLetra(String a) {
+		String textoValido = textoValido(a);
+		return textoValido.charAt(0);
+	}
+	
+	public static char ultimaLetra(String a) {
+		String textValido = textoValido(a);
+		return  textValido.charAt(textValido.length()-1);
+	}
+	
+	
+	public static String ajustarEspacios(String a) {
+		String textValido = textoValido(a);
+		return textValido.replaceAll("\\s+", " ");
+		
+	}
+	public static int logitudTextoAjustado(String a) {
+		String textoAjustado = ajustarEspacios(a);
+		return textoAjustado.length();	
+	}
+	
+}
